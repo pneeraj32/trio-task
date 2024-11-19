@@ -7,6 +7,7 @@ Build docker images of the flask app and mysql (the dockerfiles have been provid
 You can also use my images as a back up:
 
 stratcastor/mea21flaskapp:latest
+
 stratcastor/mea21sql:latest
 
 Write kubernetes manifests to deploy nginx containers using proxy pass to communicate with the flask app, nginx should use a LoadBalancer for an entrypoint, Flask and SQL should use ClusterIPs. 
